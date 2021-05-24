@@ -5,9 +5,13 @@ description = ""
 authors = ["Igor Serebryany <igor47@moomers.org>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+mailograf = "mailograf.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 notmuch = "^0.29.2"
+typer = {extras = ["all"], version = "^0.3.2"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

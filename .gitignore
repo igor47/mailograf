@@ -1,0 +1,7 @@
+__pycache__
+
+# direnv is where virtualenv is created by default by `layout python3`
+.direnv
+
+# vim swap files
+.*sw?
